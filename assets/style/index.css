@@ -1,0 +1,18 @@
+main{
+    background-image: url(../images/StreetFighterSymbol.svg)
+}
+.avatar{
+    width: 100%;
+    border-radius: 50%;
+}
+.color.red:before {
+    background-color:red;
+  }
+.img-box {
+    display: flex;
+    justify-content: center;
+    
+}
+.img-box img{
+    height: 338px;
+}
