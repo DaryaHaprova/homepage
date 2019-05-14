@@ -4,15 +4,41 @@ main{
 .avatar{
     width: 100%;
     border-radius: 50%;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+}
+.avatar:hover{
+    -ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 .color.red:before {
     background-color:red;
   }
 .img-box {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
+}
+.img-box:hover {
+    -ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 .img-box img{
     height: 338px;
+    cursor: pointer;
 }
+.contacts li a.twitter:hover {
+    color: #1da1f2;
+}
+.contacts li a.instagram:hover {
+    color: #C13584;
+}
+.contacts li a.mail:hover {
+    color: #DB4437;
+}
+
